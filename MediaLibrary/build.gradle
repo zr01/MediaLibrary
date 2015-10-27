@@ -23,8 +23,8 @@ war {
     baseName = 'com.aa.medialib'
     version = '0.0.1-SNAPSHOT'
 }
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 repositories {
     mavenCentral()
@@ -37,6 +37,13 @@ configurations {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-security')
     compile('org.springframework.boot:spring-boot-starter-web')
+    
+    //Webjars
+    compile('org.webjars:angularjs:1.4.7')
+    compile('org.webjars:bootstrap:3.3.5')
+    compile('org.webjars.bower:ngstorage:0.3.9')
+    compile('org.webjars:jquery:2.1.4')
+    
     providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
     testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
