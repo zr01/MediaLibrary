@@ -1,0 +1,30 @@
+<div class="container col-md-3">
+	<fieldset class="well">
+	<legend>Login</legend>
+	<form ng-controller="CtrlLogin" role="form">
+		<div class="control-group">
+			<div class="row">
+				<div class="col-md-2">
+					<label class="label label-default vcenter" for="username">Username:</label>
+				</div>
+				<div class="col-md-8 navbar-left">
+					<input class="form-control navbar-right vcenter" type="text" ng-model="username"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 navbar-left">
+					<label class="label label-default" for="password">Password:</label>
+				</div>
+				<div class="col-md-8">
+					<input class="form-control navbar-right" type="password" ng-model="password"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<input class="btn btn-default center-block" ng-submit="login()" value="Login"/>
+				</div>
+			</div>
+		</div>
+	</form>
+</fieldset>
+</div>

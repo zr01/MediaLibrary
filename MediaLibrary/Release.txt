@@ -1,0 +1,8 @@
+Release Notes
+
+Build 201510280111
+1. Initial structure for front-end
+2. Imported webjars Jquery, AngularJS, Bootstrap, ngStorage.
+
+Build 201510272344
+1. Initial Commit
